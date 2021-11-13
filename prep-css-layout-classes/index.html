@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Layout Classes</title>
+    <link rel="stylesheet" href="reset.css" />
+    <style>
+      /* stylelint-disable block-no-empty */
+      body {
+        font-family: sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .container {
+        max-width: 992px;
+        margin: auto;
+      }
+
+      .row {
+        width: 100%;
+        display: flex;
+      }
+
+      .column {
+        flex-basis: calc(100% / 3);
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 style="text-align: center">Rugrats</h3>
+    <div class="container"></div>
+    <div class="row"></div>
+    <div class="column">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/en/5/51/This_is_the_Theatrical_Release_Poster_of_the_Rugrats_Movie.jpg"
+        alt="OG Rugrats"
+        width="100%" />
+      <h5>
+        <p style="color: blue">The Original Rugrats Movie</p>
+      </h5>
+      <p style="color: green">
+        The Rugrats Movie was released by Paramount Pictures in the United
+        States on November 20, 1998.[1] The film opened at #1 in the United
+        States and grossed $141 million worldwide. It became the first
+        non-Disney animated film to gross over $100 million in the United
+        States.[5] The film is followed by two sequels: Rugrats in Paris: The
+        Movie in 2000 and Rugrats Go Wild in 2003.
+      </p>
+    </div>
+    <div class="column">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/en/d/d1/Rugrats_in_Paris_The_Movie_poster.jpg"
+        alt="Rugrats in Paris"
+        width="100%" />
+      <h5>
+        <p style="color: blue">Rugrats in Paris</p>
+      </h5>
+      <p style="color: green">
+        The song Who Let the Dogs Out, released on 26 July 2000, became Baha
+        Men's first and only hit in the United Kingdom and the United States,
+        and it gained popularity after appearing in Rugrats in Paris: The Movie
+        and its soundtrack album.
+      </p>
+    </div>
+    <div class="column">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/en/2/23/Rugrats_go_wildposter.jpg"
+        alt="Rugrats Go Wild"
+        width="100%" />
+    </div>
+    <h5>
+      <p style="color: blue">Rugrats Go Wild</p>
+    </h5>
+    <p style="color: green"></p>
+    The film used "Odorama," which allowed people to smell odors and aromas from
+    the film using scratch and sniff cards.
+  </body>
+</html>
