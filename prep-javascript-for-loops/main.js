@@ -7,5 +7,5 @@ for (var x = 0; x < 20; x += 2) {
 }
 
 for (var t = 100; t > 0; t--) {
-  console.log('Time till explosion ' + t + '!');
+  console.log('time til explosion ' + t + '!');
 }
